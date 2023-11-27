@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Snowy Peaks Resort | Contact</title>
+        <meta name="author" content="Grace DeGraffenreid">
+        <meta name="description" content="Enjoy a mountain vacation with Snowy Peaks Resort">
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+
+        <!-- Google Fonts Links -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <section id="nav">
+                <h1>Snowy Peaks Resort</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Accommodations</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <img src="assets/swiss-valley.jpg" width="auto" height="auto" alt="">
+        </header>
+
+        <main>
+            <section id="contact">
+                <div>
+                    <h2>Contact Us</h2>
+                    <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+                    <p>Required fields marked with a <span class="required">*</span></p>
+                    <img src="assets/swiss-sunset.jpg" width="auto" height="auto" alt="">
+                </div>
+            </section>
+            <section id="form">
+                <div>
+                    <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                        <label for="full-name">Please Enter Your Full Name:<span class="required">*</span><br></label>
+                        <input type="text" name="full-name" id="full-name" size="35" required>
+                        <br>
+                        <label for="email-addr">Email Address:<span class="required">*</span><br></label>
+                        <input type="email" name="email-addr" id="email-addr" size="35" required>
+                        <br>
+                        <label for="phone-num">Phone Number:<span class="required">*</span><br></label>
+                        <input type="tel" name="phone-num" id="phone-num" size="35" required>
+                        <br>
+                </div>
+                    <div>
+                        <fieldset>
+                            <legend>Preferred method of contact: <span class="required">*</span></legend>
+                            <input type="radio" id="contactChoice1" name="contact" value="email" required checked/>
+                            <label for="contactChoice1">Email</label>
+                        
+                            <input type="radio" id="contactChoice2" name="contact" value="phone" />
+                            <label for="contactChoice2">Phone</label>
+                        
+                            <input type="radio" id="contactChoice3" name="contact" value="text" />
+                            <label for="contactChoice3">Text</label>
+                        </fieldset>
+                        
+                        <label for="comments">Comments:<span class="required">*</span><br></label>
+                        <textarea name="comments" id="comments" rows="6" cols="40" required></textarea>
+                        <br>
+                        <input type="submit" name="my-submit6" id="my-submit6" value="Submit">
+                    </div>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <section id="copyright">
+                <p>Copyright &copy;2023 - Snowy Peaks Resort</p>
+                <p>This site is for educational purposes only</p>
+            </section>
+        </footer>
+    </body>
+</html>
